@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+
+@layer components {
+    .btn-primary {
+        @apply bg-blue-600 hover: bg-blue-700 text-white font-bold py-2 px-4 rounded transition-all duration-300 hover: scale-105;
+    }
+    .card {
+        @apply bg-white rounded-lg shadow-md p-6 transition-all duration-300 hover: shadow-lg hover: scale-105;
+    }
+    .section-padding {
+        @apply py-16 px-4;
+    }
+}
